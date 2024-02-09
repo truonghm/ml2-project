@@ -1,0 +1,36 @@
+project:
+  render:
+    - "report.ipynb"
+
+title: "Machine Learning and Deep Learning"
+subtitle: "Project - Named-Entity Recognition"
+author: Hoang Manh Truong
+date: today
+format: 
+  pdf:
+    documentclass: article
+    classoption: a4paper
+    papersize: A4
+    number-sections: true
+    toc: true
+    fontsize: 10pt
+    mainfont: Latin Modern Roman
+    sansfont: Latin Modern Roman
+    geometry:
+      - top=25mm
+      - left=20mm
+      - right=20mm
+      - bottom=25mm
+    keep-tex: false
+    fig-pos: "H"
+highlight-style: github
+code-block-border-left: "#292b2e"
+execute:
+  echo: false
+  warning: false
+  eval: true
+link-citations: true
+linkcolor: black  
+number-depth: 2
+fig-height: 3.8
+fig-width: 6.3
